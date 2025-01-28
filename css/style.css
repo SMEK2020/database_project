@@ -154,6 +154,9 @@ marquee h1{
     width: 100%;
     align-items: center;
 }
+.map{
+    max-width: 100%;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-brand {
         width: 126px;
@@ -245,6 +248,7 @@ marquee h1{
         height: 650px;
         object-fit: cover;
     }
+   
 }
 
 .page-header {
