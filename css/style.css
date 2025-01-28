@@ -126,7 +126,34 @@
     vertical-align: middle;
     margin-left: 8px;
 }
-
+marquee{
+    margin: 400px 100px 0px 100px;
+    
+}
+marquee h1{
+    color:#8ce715;
+}
+.col-lg-6{
+    overflow-y: scroll;
+   
+    height: 575px;
+}
+.Rd-more{
+    width: 200px;
+}
+.btn-rd{
+    width: 100%;
+}
+.container> img{
+    height: 400px;
+    width: 600px;
+}
+.log{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-brand {
         width: 126px;
@@ -171,7 +198,7 @@
     width: auto;
     background-image: url('img/carousel-1.jpg');
     background-size: cover;
-    background-size: contain;
+    
 }
 .back-img img{
     height:auto;
@@ -297,6 +324,10 @@
 .team-item .btn {
     border-radius: 38px 38px 0 0;
 }
+.row{
+   
+    justify-content: center;
+}
 
 
 
@@ -315,7 +346,7 @@
 
 .product-carousel .owl-nav .owl-prev,
 .product-carousel .owl-nav .owl-next {
-    margin: 0 10px;
+    margin: 0 0px;
     width: 55px;
     height: 55px;
     display: flex;
@@ -337,10 +368,7 @@
 
 
 /*** About ***/
-.video {
-    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/video-bg.jpg) center center no-repeat;
-    background-size: cover;
-}
+
 
 .btn-play {
     position: relative;
